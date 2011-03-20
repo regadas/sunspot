@@ -165,7 +165,7 @@ JRuby 1.6.0.
 
 Note: JRuby must have 1.9 option enabled.
 
-export JRUBY_OPTS=--1.9 sunspot-solr start
+    export JRUBY_OPTS=--1.9 sunspot-solr start
 
 == Bugs
 
