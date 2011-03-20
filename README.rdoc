@@ -161,7 +161,11 @@ me so I can rectify the situation!
 2. Java 1.5+
 
 Sunspot has been tested with MRI 1.8.6 and 1.8.7, REE 1.8.6, YARV 1.9.1, and
-JRuby 1.2.0
+JRuby 1.6.0. 
+
+Note: JRuby must have 1.9 option enabled.
+
+export JRUBY_OPTS=--1.9 sunspot-solr start
 
 == Bugs
 
